@@ -1,0 +1,15 @@
+# Created at 2024-07-27T16:35:08.544
+java.lang.ClassCastException: listenersExtentReport.ExtentReport cannot be cast to org.testng.ITestNGListener
+	at org.testng.TestNG.addListeners(TestNG.java:949)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:912)
+	at org.testng.TestNG.initializeEverything(TestNG.java:996)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+

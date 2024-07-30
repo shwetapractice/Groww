@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57752" started-at="2024-07-27T11:23:22Z" finished-at="2024-07-27T11:24:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57752" started-at="2024-07-27T11:23:22Z" finished-at="2024-07-27T11:24:20Z">
+      <class name="test.WelcomePageTestCase">
+        <test-method status="PASS" signature="browserLaunchByGrow()[pri:0, instance:test.WelcomePageTestCase@29626d54]" name="browserLaunchByGrow" is-config="true" duration-ms="9052" started-at="2024-07-27T11:23:13Z" finished-at="2024-07-27T11:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchByGrow -->
+        <test-method status="PASS" signature="createObject()[pri:0, instance:test.WelcomePageTestCase@29626d54]" name="createObject" is-config="true" duration-ms="61" started-at="2024-07-27T11:23:22Z" finished-at="2024-07-27T11:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method status="PASS" signature="loginTestCase()[pri:0, instance:test.WelcomePageTestCase@29626d54]" name="loginTestCase" duration-ms="41324" started-at="2024-07-27T11:23:22Z" finished-at="2024-07-27T11:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="homePageTest()[pri:1, instance:test.WelcomePageTestCase@29626d54]" name="homePageTest" duration-ms="4470" started-at="2024-07-27T11:24:04Z" finished-at="2024-07-27T11:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="readDatafromFile()[pri:2, instance:test.WelcomePageTestCase@29626d54]" name="readDatafromFile" duration-ms="6816" started-at="2024-07-27T11:24:08Z" finished-at="2024-07-27T11:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDatafromFile -->
+        <test-method status="PASS" signature="writeData()[pri:3, instance:test.WelcomePageTestCase@29626d54]" name="writeData" duration-ms="5010" started-at="2024-07-27T11:24:15Z" finished-at="2024-07-27T11:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeData -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.WelcomePageTestCase@29626d54]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2024-07-27T11:24:23Z" finished-at="2024-07-27T11:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.WelcomePageTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
